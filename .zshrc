@@ -16,6 +16,27 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # -------------------------------- #
+# My aliases
+# -------------------------------- #
+
+alias reload="source ~/.zshrc"
+alias cls="clear"
+alias hg="history | grep"
+alias rr="rm -rf"
+
+alias dk="docker"
+alias ls="eza"
+alias ll="eza -lh"
+alias l="eza -lah"
+alias mc="mc -u"
+alias yt='yt-dlp -f "bv+ba/b"'
+
+alias bu="brew update && brew upgrade && brew doctor"
+
+alias gai="git add . && npx aicommits"
+alias adog="git log --all --decorate --oneline --graph"
+
+# -------------------------------- #
 # Node Package Manager
 # -------------------------------- #
 # https://github.com/antfu/ni

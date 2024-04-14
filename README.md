@@ -1,11 +1,12 @@
-# Anthony's Dotfiles
+# My Dotfiles
 
 - [.zshrc](./.zshrc)
 
 ### Check Also
 
-- [antfu/dotfiles](https://github.com/antfu/dotfiles) - My dotfiles
-- [antfu/vscode-settings](https://github.com/antfu/vscode-settings) - My VS Code settings
-- [antfu/eslint-config](https://github.com/antfu/eslint-config) - My ESLint config
-- [antfu/ts-starter](https://github.com/antfu/ts-starter) - My starter template for TypeScript library
-- [antfu/vitesse](https://github.com/antfu/vitesse) - My starter template for Vue & Vite app
+- [eza](https://github.com/eza-community/eza) - a modern, maintained replacement for ls
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - make your diffs human readable instead of machine readable
+- [hub](https://hub.github.com/) - a command-line tool that makes git easier to use with GitHub
+- [ni](https://github.com/antfu/ni) - use the right package manager
+- [Live Server](https://github.com/tapio/live-server) - a simple development http server with live reload capability
+- [Oh My Zsh](https://ohmyz.sh/) - manage your Zsh configuration
