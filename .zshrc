@@ -1,3 +1,5 @@
+export ZSH=/Users/mariuszm/.oh-my-zsh
+
 # git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 # ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ZSH_THEME="spaceship"
@@ -29,7 +31,7 @@ alias ls="eza"
 alias ll="eza -lh"
 alias l="eza -lah"
 alias mc="mc -u"
-alias yt='yt-dlp -f "bv+ba/b"'
+alias yt='yt-dlp -f "bv[height<=1080]+ba/b" --merge-output-format mkv'
 
 alias bu="brew update && brew upgrade && brew doctor"
 
